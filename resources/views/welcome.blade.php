@@ -9,9 +9,7 @@
   </head>
 
     <body>
-      <div class="container">
-        <my-app>Loading...</my-app>
-      </div>
+      <my-app>Loading...</my-app>
 
       @if (Config::get('app.debug'))
         <script type="text/javascript">

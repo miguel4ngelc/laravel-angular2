@@ -94,6 +94,7 @@ elixir(function(mix) {
    * LiveReload
    **/
   mix.livereload([
+    'resources/views/**/**/**/**/*',
     'resources/assets/typescript/**/**/**/**/*',
     'public/css/**/*',
     'public/fonts/**/*',
